@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+</body>
+</html>
+<html>  
+<head>   
+<title> ... </title>  
+</head>  
+<script>  
+function getRandomImage() {  
+//declare an array to store the images  
+var randomImage = new Array();  
+  
+//insert the URL of images in array  
+randomImage[0] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlVZFdseIRg4Kq5M8JL8Isi87RlyeSnkyprg&usqp=CAU";  
+randomImage[1] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT-kNbM3Ruk59cVXA6f_P5xjSlU115KezThQ&usqp=CAU";  
+randomImage[2] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaM9Nkg_FEC0kL0DqduxZeFjYC6FkdDAl_A&usqp=CAU";  
+randomImage[3] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuVd3wifDtZemQMaJRb5TmjQyBj2EH81Wqhg&usqp=CAU";  
+randomImage[4] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlAe69L4Njt-4mO7SVQTvVxQPQjhO_kH7w4g&usqp=CAU";  
+randomImage[5] = "https://www.hollywoodreporter.com/wp-content/uploads/2021/08/GettyImages-1232075106-H-2021.jpg";  
+randomImage[6] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUzwYV1pBgNiArjes3gtSaytiytArmY6zJQw&usqp=CAU";  
+randomImage[7] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRU9YQQZr5aRxW3xJ83UG37PJf2tOqmXTk-w&usqp=CAU";  
+randomImage[8] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjX_Uu5ZlLqfzMBNot5hLupIuL1W_NBL8CPw&usqp=CAU";  
+randomImage[9] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTXSeaVw6OQFAh2O72EnRPNVJ2LtTsiX_PQ&usqp=CAU";  
+randomImage[10] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuTEjEo8cu6WAPaW4EZ99uFImqt7iEgSJUA&usqp=CAU";  
+randomImage[11] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTypfawfEBdR1hF7XIuT9bW8EXKwFTTbBEaJQ&usqp=CAU";  
+randomImage[12] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNQ_5mkoPOXgfEhNbw9ZpeZtxwix8m7Nkc4g&usqp=CAU";  
+randomImage[13] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7IU9x6DfxGYD_Ozyiz_JrHZ5qkQ-gnzJFA&usqp=CAU";  
+randomImage[14] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaX7SOtfIBULWKJY8SzXEirQhv5AQ-V-uE8A&usqp=CAU";  
+randomImage[15] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQutm2tIXm6U6v5S9FpZ3pLBpkDZXddzvldUw&usqp=CAU";  
+randomImage[16] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmACXMLiMDNSp0kv1gBX-7ghIy47Z1pn0HAA&usqp=CAU";  
+randomImage[17] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtERPnsoEoEuKo6BVUt3QbeGMsp5nLzrUMug&usqp=CAU";  
+randomImage[18] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa6FhMtMNcdhWel5CWqJLYSQGMKr9LFj6z7g&usqp=CAU";  
+randomImage[19] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvB9TEG9ytB2ffdpfRDBjsX1F8xorkK5YU-g&usqp=CAU";  
+randomImage[20] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKwta_joSdOUpckX2C1v1XBi0zsSBXDACULg&usqp=CAU";  
+randomImage[21] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_5cohu8FW89t6tRWuKXmEMgglgZOae6Lrjg&usqp=CAU";  
+randomImage[22] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkBLB5kwVU9vL9wE9PIXj7ATdXEfRN3YZGSw&usqp=CAU";  
+randomImage[23] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWvJNdGN5Pt26lffHkBLv7NG21jUQsYKE2LQ&usqp=CAU";  
+randomImage[24] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj9RMI48kPl5Hiy9NS0yyOH385SMmtAqQFRw&usqp=CAU";  
+randomImage[25] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4CMoNPZAT7e-zK8v3cXgrHKrqgPeB16Fj6Q&usqp=CAU";  
+randomImage[26] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3bAhIPMwTXRdbIZsq6K8fC6PbOSwLYwEIjA&usqp=CAU";  
+randomImage[27] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTESDXjXiBSCfb6xNOCpwK4a9f89tnhKCbiNA&usqp=CAU";  
+randomImage[28] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5qCkNO3zQgYLeBWwcjmoJUdUnowDOThdIMg&usqp=CAU";  
+randomImage[29] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9pyTglvffhxLs6YZV7hPQiLdb3o8BkahYrg&usqp=CAU";  
+randomImage[30] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5xRuumVLvDO6AoAWJ-Iv1pkW3sjDPAjDLxA&usqp=CAU";  
+randomImage[31] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdL-K-r7nLBeLKp4NK73_k_QJRMkdPYderQA&usqp=CAU";  
+randomImage[32] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrKlJ-weG2VnzS0m69NN0J_SAT94k-6IxX_A&usqp=CAU";  
+randomImage[33] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfrKHIaX9jRINed9aYYsxK3B88eIeys30cgA&usqp=CAU";  
+randomImage[34] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmMLvjRuDY1mvPN2Jh3124HU4CPFQ2rFK0vw&usqp=CAU";  
+randomImage[35] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRattWeA7L2Fc_GHhA75AA9FnX-9TMV2ykPKA&usqp=CAU";  
+randomImage[36] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9VKSRtZb5cgZIm4MD8S94CIF6Upm0-0F-Rw&usqp=CAU";  
+randomImage[37] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREW-Xy5c1LC3QLtlWpZQgSMDQ2nLh4VVHHaQ&usqp=CAU";  
+randomImage[38] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwNTKY212In9S4Nf8pDv2FJy5hgTJ7tj1EgA&usqp=CAU";  
+randomImage[39] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0zyQzD1Km5bP7Ao7S9KGmqa8COC2HQuSm3w&usqp=CAU";  
+randomImage[40] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHv8hQm7PoMdg8X_aRcnXX_DHElC9qdPm0Iw&usqp=CAU";  
+randomImage[41] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsShi9C7PGT64dEXeTlBwsJ-UGH0jrndW6FA&usqp=CAU";  
+randomImage[42] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Q1bQhd0ct36P4BBrVbjF0XGYCRmGmx7-Zg&usqp=CAU";  
+randomImage[43] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1lYU8i2wavO3PrZisVYv2QfQCiRC1zpKH9A&usqp=CAU";  
+randomImage[44] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLRKHe6GGS4553cSMQYoq9kkUYLfNPOi3UVA&usqp=CAU";  
+randomImage[45] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU0jZGp2uHc224ySUdDWyqnCbum8PbzJzCPA&usqp=CAU";  
+randomImage[46] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNQhAwO4aQmJOfunh1jrx9snCDKqdu8adsig&usqp=CAU";  
+randomImage[47] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE2LWrI5P-wD3KZI2vZjBOs3M-KQCN1BskDg&usqp=CAU";  
+randomImage[48] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGzQUyybkR2EPPp4yToyjL6xoGABFW1Y5jwg&usqp=CAU";  
+randomImage[49] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQQoOuecUDkuYKvphTVzoB03SReyJV-p8XQ&usqp=CAU&reload=on";  
+randomImage[50] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3HOGR47NrmDBjAIr2noED61cvB82qHvaZg&usqp=CAU&reload=on";  
+randomImage[51] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyx1fg1qtLgHgqlENBa0EaX9tNs6nknlkCqg&usqp=CAU";  
+randomImage[52] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6taV1u7gbO9ddmWjwHNjtTMo1DAaag2cQBg&usqp=CAU";  
+randomImage[53] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkEAAxCRtoDPghS6vNqTEwJE-hcEWkcGJdHA&usqp=CAU";  
+randomImage[54] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxVDMe6SKmRUUX92TYAcdICdqSZYrY4cjrWw&usqp=CAU";  
+randomImage[55] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3LxiPxE8GLayTQR_uj9XltffVRmFMNscPog&usqp=CAU";  
+randomImage[56] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSrPr2GdMs0fMr6fOgTtZ6uXfteZeQSJnhbQ&usqp=CAU";  
+randomImage[57] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpZptHhLHno2exBEuEysWIUAy_r_lQufx3yA&usqp=CAU";  
+randomImage[58] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_pcY8JoGXUtkFzj1UHzUEJIVaHWkHmBjPsA&usqp=CAU";  
+randomImage[59] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT39-HKILkS044wm4XQbfO63JMQ2SA4mPF3zg&usqp=CAU";  
+randomImage[60] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrnCIOJjBpWD02l6tlq1wGytdw8v5ZuALsMQ&usqp=CAU";  
+randomImage[61] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Af5RpbtS8TCjVIBULcqZttHATilrrTphKQ&usqp=CAU";  
+randomImage[62] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa2_N5ydQn85rFJg6EF7G47PFdjFEVr-K9jg&usqp=CAU";  
+randomImage[63] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq3QUh3rUGb7BL0YDz0bcRAuCpOjlAS7zgaA&usqp=CAU";  
+randomImage[64] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLF6yYmjxNYYEG9mSX4tsaVPJZOavW7jsVVQ&usqp=CAU";  
+randomImage[65] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFfEdR-Sx7-4YRSr9m_a17WMoA5WZTyp-SAw&usqp=CAU";  
+randomImage[66] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhR3ZcmGsNW8SHmullT8Z8ZtjDPNy6Lqd9_w&usqp=CAU";  
+randomImage[67] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfSVyiP_AgyAGk2DoQYQmRYV6MeNf3XkRidA&usqp=CAU";  
+randomImage[68] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnyjpKgLKW2204zdSuqyYo65Q0lbXbUgOzdw&usqp=CAU";  
+randomImage[69] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqyKtbUtopR-GpR-jCfYETc9PHOV-rRO8nOA&usqp=CAU";  
+randomImage[70] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNj3e6Yikp_exss0XmwrycctPYb1BCSyujyw&usqp=CAU";  
+
+  
+//loop to display 70 randomly chosen images at once  
+for (let i=0; i< 70; i++) {  
+//generate a number and provide to the image to generate randomly  
+var number = Math.floor(Math.random()*randomImage.length);  
+//print the images generated by a random number  
+document.getElementById("result").innerHTML += '<img src="'+ randomImage[number] +'" style="width:150px" />';  
+}  
+}  
+  
+</script>  
+<body>  
+<center><h2 style="color:rgb(33, 0, 0)"> ... </h2></center>  
+<h2 style="color:rgb(93, 0, 0)"> TURN BACK NOW! </h2></center> 
+<!-- call user-defined getRandomImage function to generate image -->    
+<button onclick = "getRandomImage()"> DONT CLICK </button>  
+<br> <br>  
+<span id="result" align="center"> </span>   
+
+</body>    
+</html>
